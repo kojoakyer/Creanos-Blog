@@ -1,0 +1,42 @@
+.header{
+    margin-top: 60px;
+}
+
+.headertitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headertitleSm{
+    position: absolute;
+    top: 10%;
+    font-size: 30px;
+}
+
+.headertitleLg{
+    position: absolute;
+    top: 14%;
+    font-size: 70px;
+}
+
+.headerImg{
+    width: 100%;
+    height: 70vh;
+    margin-top: 80px;
+    object-fit: cover; 
+}
+
+@media screen and (max-width: 960px) {
+    .headertitleSm{
+        position: absolute;
+        top: 20%;
+        font-size: 20px;
+    }
+    
+    .headertitleLg{
+        position: absolute;
+        top: 28%;
+        font-size: 40px;
+    }
+}

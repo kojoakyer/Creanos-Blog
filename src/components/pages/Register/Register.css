@@ -1,0 +1,93 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.registerTitle{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm label{
+    margin: 10px 0;
+    color: black;
+    font-size: 30px;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 20vw;
+}
+
+.registerInput:focus{
+    outline-color: turquoise;
+}
+
+.registerBut{
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: teal;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.loginButton{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    background-color: lightcoral;
+    color: #fff;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .registerForm{
+        width: 80%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }    
+
+    .registerForm label{
+        margin: 10px 0;
+        color: black;
+        font-size: 20px;
+    }
+    
+    .registerInput{
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        width: 70vw;
+    }
+
+    .registerTitle{
+        font-size: 30px;
+    }
+}
