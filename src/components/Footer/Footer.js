@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer-container'>
         <section className="footer-subscription">
             <p className="footer-subscription-heading">
-                Join the Adventure newsletter to recieve our best vacation
+                Join the Tech newsletter to recieve our tech news update.
             </p>
             <p className="footer-subscription-text">
                 You can unsubscribe at any time
